@@ -1,4 +1,4 @@
-FROM openjdk:8-alpine-linux
+FROM openjdk:alpine-linux
 COPY App.java .
 RUN javac App.java
 CMD ["java","App"]
